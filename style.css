@@ -1,0 +1,148 @@
+body::-webkit-scrollbar {
+  background: linear-gradient(white, rgb(199, 236, 255), rgb(199, 236, 255));
+}
+body::-webkit-scrollbar-thumb {
+  background: rgb(76, 175, 225);
+  border-radius: 10px;
+}
+
+/* section 1 */
+h1 {
+  font-family: "PT Serif", serif;
+}
+
+.s1-a {
+  color: black;
+}
+.s1-a:hover {
+  color: rgb(255, 0, 60);
+}
+
+/* section 2 */
+.s2-h2 {
+  font-family: "PT Serif", serif;
+}
+.s2-h1 {
+  font-size: 360%;
+}
+.section2 {
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(img/h1_hero.jpg);
+}
+/* section 5 */
+.s5col1 {
+  display: none;
+}
+.s5col2 {
+  display: none;
+}
+.s5col3 {
+  display: none;
+}
+/* section 6 */
+.s6-h1 {
+  font-size: 350%;
+}
+.section6 {
+  width: 100%;
+  height: auto;
+  background-image: url(img/card.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.s6-d {
+  padding: 200px;
+}
+.s6-c1 {
+  padding-top: 5%;
+}
+.s6-c {
+  padding-top: 10%;
+  animation-name: img6;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+}
+@keyframes img6 {
+  from {
+    position: relative;
+    top: 50px;
+  }
+  to {
+    position: relative;
+    bottom: 50px;
+  }
+}
+/* section 7 */
+.section7 {
+  margin-top: 15%;
+}
+/* section 8 */
+
+.section7 {
+  width: 100%;
+  height: auto;
+  background-image: url(img/h1_hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* section 9 */
+.s8-c1 {
+  width: 100%;
+  height: auto;
+  background-image: url(img/gallery1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.s8-c2 {
+  width: 100%;
+  height: auto;
+  background-image: url(img/gallery2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.s8-c3 {
+  width: 100%;
+  height: auto;
+  background-image: url(img/gallery3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.s8-c4 {
+  width: 100%;
+  height: auto;
+  background-image: url(img/gallery4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Catagori */
+
+.catagari-s2 {
+  margin-top: 90px;
+  margin-bottom: 50px;
+  padding-top: 6%;
+  padding-bottom: 7%;
+  width: 100%;
+  height: auto;
+  background-image: url(img/category.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.catagari-sh1 {
+  font-size: 60px;
+}
+/* blog */
+.blog-b {
+  background-color: rgb(255, 0, 60);
+  position: relative;
+  top: 80%;
+  font-size: 100px;
+  border: none;
+}
+.blog-p {
+  color: rgb(127, 127, 127);
+}
